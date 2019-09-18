@@ -1,0 +1,327 @@
+<ns1:AanvraagTotaal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://www.alliander.com/lip">
+
+  <!-- String.format: 1. AanvraagID, 2. EanCode , 3. gewenste_fasen, 4. gewenst_amperage -->
+
+  <ns1:Header xmlns:ns2="http://mijnaansluiting.nl/entiteiten/v0103">
+    <ns2:MessageID>638c9f9d-5b3a-46d6-93f9-f8288af00fe6</ns2:MessageID>
+    <ns2:RepeatCount>0</ns2:RepeatCount>
+    <ns2:SenderID>LIP</ns2:SenderID>
+    <ns2:RecipientID>002Liander</ns2:RecipientID>
+    <ns2:CreateTime>2018-12-19T13:56:30.189176Z</ns2:CreateTime>
+    <ns2:SendTime>2018-12-19T14:56:28.7599081+01:00</ns2:SendTime>
+    <ns2:MessageVersion>v0103</ns2:MessageVersion>
+  </ns1:Header>
+  <ns1:Aanvraag xmlns:ns3="http://mijnaansluiting.nl/entiteiten/v0103">
+    <ns3:Aanleveringswijze>D</ns3:Aanleveringswijze>
+    <ns3:AantalBijlagen>2</ns3:AantalBijlagen>
+    <ns3:AanvraagDatum>2018-12-19T14:56:25.0463569</ns3:AanvraagDatum>
+    <ns3:AanmaakDatum>2018-12-19T14:43:13.623</ns3:AanmaakDatum>
+    <ns3:AanvraagVersie>0</ns3:AanvraagVersie>
+    <ns3:AanvraagID>%d</ns3:AanvraagID>
+    <ns3:Aanvrager>
+      <ns3:AanvragerID>1210340364</ns3:AanvragerID>
+      <ns3:IsProfessioneel>false</ns3:IsProfessioneel>
+      <ns3:NotificatieVoorkeur>MAIL</ns3:NotificatieVoorkeur>
+      <ns3:RelatieGegevens>
+        <ns3:IsBedrijf>false</ns3:IsBedrijf>
+        <ns3:Persoonsgegevens>
+          <ns3:Aanhef>Dhr.</ns3:Aanhef>
+          <ns3:Achternaam>Modaal</ns3:Achternaam>
+          <ns3:Tussenvoegsels></ns3:Tussenvoegsels>
+          <ns3:Voorletters>J.F.</ns3:Voorletters>
+        </ns3:Persoonsgegevens>
+        <ns3:Adres>
+          <ns3:Huisnummer>16</ns3:Huisnummer>
+          <ns3:Land>NL</ns3:Land>
+          <ns3:Plaats>Heerhugowaard</ns3:Plaats>
+          <ns3:Postcode>8116DA</ns3:Postcode>
+          <ns3:Straat>Varsseveldseweg</ns3:Straat>
+        </ns3:Adres>
+        <ns3:Emailadres>j.f.modaal@hotmail.com</ns3:Emailadres>
+        <ns3:Telefoonnummer>0123456789</ns3:Telefoonnummer>
+        <ns3:TelefoonnummerMobiel>0623456789</ns3:TelefoonnummerMobiel>
+      </ns3:RelatieGegevens>
+    </ns3:Aanvrager>
+    <ns3:AanvragerReferentie>van 3x 35 naar 3 x 25</ns3:AanvragerReferentie>
+    <ns3:Bijlagen>
+      <ns3:Omschrijving>Template</ns3:Omschrijving>
+      <ns3:Bijlage>
+        <ns3:VraagCode>GE015V</ns3:VraagCode>
+        <ns3:NetbeheerderCode>LIP</ns3:NetbeheerderCode>
+        <ns3:Bestandsgrootte>454909</ns3:Bestandsgrootte>
+        <ns3:Bestandsnaam>meter.JPG</ns3:Bestandsnaam>
+        <ns3:BijlageID>1000964221</ns3:BijlageID>
+        <ns3:MimeType>image/jpeg</ns3:MimeType>
+      </ns3:Bijlage>
+      <ns3:Bijlage>
+        <ns3:VraagCode>GE015V</ns3:VraagCode>
+        <ns3:NetbeheerderCode>LIP</ns3:NetbeheerderCode>
+        <ns3:Bestandsgrootte>620234</ns3:Bestandsgrootte>
+        <ns3:Bestandsnaam>meter 2.JPG</ns3:Bestandsnaam>
+        <ns3:BijlageID>1000964222</ns3:BijlageID>
+        <ns3:MimeType>image/jpeg</ns3:MimeType>
+      </ns3:Bijlage>
+    </ns3:Bijlagen>
+    <ns3:FactuurOntvanger>
+      <ns3:IsAanvrager>true</ns3:IsAanvrager>
+      <ns3:IsAfwijkendAdres>false</ns3:IsAfwijkendAdres>
+      <ns3:RelatieGegevens>
+        <ns3:IsBedrijf>false</ns3:IsBedrijf>
+        <ns3:Persoonsgegevens>
+          <ns3:Aanhef>Dhr.</ns3:Aanhef>
+          <ns3:Achternaam>Modaal</ns3:Achternaam>
+          <ns3:Tussenvoegsels></ns3:Tussenvoegsels>
+          <ns3:Voorletters>J.F.</ns3:Voorletters>
+        </ns3:Persoonsgegevens>
+        <ns3:Adres>
+          <ns3:Huisnummer>16</ns3:Huisnummer>
+          <ns3:Land>NL</ns3:Land>
+          <ns3:Plaats>Heerhugowaard</ns3:Plaats>
+          <ns3:Postcode>8116DA</ns3:Postcode>
+          <ns3:Straat>Varsseveldseweg</ns3:Straat>
+        </ns3:Adres>
+        <ns3:Emailadres>j.f.modaal@hotmail.com</ns3:Emailadres>
+        <ns3:Telefoonnummer>0123456789</ns3:Telefoonnummer>
+        <ns3:TelefoonnummerMobiel>0623456789</ns3:TelefoonnummerMobiel>
+      </ns3:RelatieGegevens>
+    </ns3:FactuurOntvanger>
+    <ns3:IsCluster>false</ns3:IsCluster>
+    <ns3:IsMix>false</ns3:IsMix>
+    <ns3:IsNamensAanvragende>false</ns3:IsNamensAanvragende>
+    <ns3:AansluitObjecten>
+      <ns3:AansluitObject>
+        <ns3:Adres>
+          <ns3:Huisnummer>16</ns3:Huisnummer>
+          <ns3:Land>NL</ns3:Land>
+          <ns3:Plaats>Heerhugowaard</ns3:Plaats>
+          <ns3:Postcode>8116DA</ns3:Postcode>
+          <ns3:Straat>Varsseveldseweg</ns3:Straat>
+        </ns3:Adres>
+        <ns3:BagObjectCode>294010000425553</ns3:BagObjectCode>
+        <ns3:Coordinaten>
+          <ns3:Lengtegraad>6.75907</ns3:Lengtegraad>
+          <ns3:Breedtegraad>51.96469</ns3:Breedtegraad>
+          <ns3:Codestelsel>WGS84</ns3:Codestelsel>
+        </ns3:Coordinaten>
+        <ns3:HeeftMeerdereBAGIds>false</ns3:HeeftMeerdereBAGIds>
+        <ns3:IsPostcodeBijBenadering>false</ns3:IsPostcodeBijBenadering>
+        <ns3:ObjectID>1001197997</ns3:ObjectID>
+        <ns3:ObjectType>WH</ns3:ObjectType>
+        <ns3:Produkten>
+          <ns3:Product>
+            <ns3:DisciplineCode>E</ns3:DisciplineCode>
+            <ns3:DisciplineID>1003150680</ns3:DisciplineID>
+            <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+            <ns3:AdditioneleVragen>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>GE003</ns3:VraagCode>
+                <ns3:NetbeheerderCode>LIP</ns3:NetbeheerderCode>
+                <ns3:Vraag>Appartement: Gaat het op deze locatie om hoogbouw of laagbouw?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>LB</ns3:AntwoordCode>
+                <ns3:Antwoord>Laagbouw</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA002</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Gebruikt u de aansluiting om energie terug te leveren? Zoja, wat is het piekvermogen van uw omvormer?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>0</ns3:AntwoordCode>
+                <ns3:Antwoord> Nee</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA008</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Gebruikt u een warmtepomp voor uw warmte voorziening?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>1</ns3:AntwoordCode>
+                <ns3:Antwoord> Nee</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA015</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Is er in uw pand mogelijk asbest aanwezig in of rondom de meterkast? </ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>1</ns3:AntwoordCode>
+                <ns3:Antwoord> Nee</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA024</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Als de meter verwisseld moet worden, mag Liander dan een slimme meter plaatsen?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>1</ns3:AntwoordCode>
+                <ns3:Antwoord> In overleg</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA027</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Betreft het een zuivere teruglevering aansluiting?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>0</ns3:AntwoordCode>
+                <ns3:Antwoord> Nee</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+              <ns3:AdditioneleVraag>
+                <ns3:VraagCode>LIA029</ns3:VraagCode>
+                <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+                <ns3:Vraag>Gebruikt u de aansluiting ook om uw elektrische auto te laden?</ns3:Vraag>
+                <ns3:VraagType>DropDown</ns3:VraagType>
+                <ns3:AntwoordCode>0</ns3:AntwoordCode>
+                <ns3:Antwoord> Nee</ns3:Antwoord>
+              </ns3:AdditioneleVraag>
+            </ns3:AdditioneleVragen>
+            <ns3:EANCode>%s</ns3:EANCode>
+            <ns3:Specificatie>Wijzigen naar 3x25A</ns3:Specificatie>
+            <ns3:DienstCode>WZ</ns3:DienstCode>
+            <ns3:SubdienstCode>WZC</ns3:SubdienstCode>
+            <ns3:ProductCode>170903</ns3:ProductCode>
+            <ns3:TariefCode>170903</ns3:TariefCode>
+            <ns3:BedrijfseigenKenmerk>%dx%dA</ns3:BedrijfseigenKenmerk>
+            <ns3:HeeftOverlap>false</ns3:HeeftOverlap>
+            <ns3:ProcesStatus>3a</ns3:ProcesStatus>
+            <ns3:ProcesVariant>10</ns3:ProcesVariant>
+          </ns3:Product>
+        </ns3:Produkten>
+        <ns3:ToekomstigeGebruiker>
+          <ns3:RelatieGegevens>
+            <ns3:IsBedrijf>false</ns3:IsBedrijf>
+            <ns3:Persoonsgegevens>
+              <ns3:Aanhef>Dhr.</ns3:Aanhef>
+              <ns3:Achternaam>Modaal</ns3:Achternaam>
+              <ns3:Tussenvoegsels></ns3:Tussenvoegsels>
+              <ns3:Voorletters>J.F.</ns3:Voorletters>
+            </ns3:Persoonsgegevens>
+            <ns3:Adres>
+              <ns3:Huisnummer>16</ns3:Huisnummer>
+              <ns3:Land>NL</ns3:Land>
+              <ns3:Plaats>Heerhugowaard</ns3:Plaats>
+              <ns3:Postcode>8116DA</ns3:Postcode>
+              <ns3:Straat>Varsseveldseweg</ns3:Straat>
+            </ns3:Adres>
+            <ns3:Emailadres>j.f.modaal@hotmail.com</ns3:Emailadres>
+            <ns3:Telefoonnummer>0123456789</ns3:Telefoonnummer>
+            <ns3:TelefoonnummerMobiel>0623456789</ns3:TelefoonnummerMobiel>
+          </ns3:RelatieGegevens>
+          <ns3:SoortCode>Aanvrager</ns3:SoortCode>
+        </ns3:ToekomstigeGebruiker>
+        <ns3:WensJaar>2019</ns3:WensJaar>
+        <ns3:WensWeek>6</ns3:WensWeek>
+      </ns3:AansluitObject>
+    </ns3:AansluitObjecten>
+    <ns3:VerkoopDocumenten>
+      <ns3:VerkoopDocument>
+        <ns3:VerkoopDocumentNummer>1000416002</ns3:VerkoopDocumentNummer>
+        <ns3:AanvraagID>1000744250</ns3:AanvraagID>
+        <ns3:NetbeheerderCode>002Liander</ns3:NetbeheerderCode>
+        <ns3:AanmaakDatum>2018-12-19T14:55:41.283</ns3:AanmaakDatum>
+        <ns3:WijzigingsDatum>2018-12-19T14:56:25.0617236</ns3:WijzigingsDatum>
+        <ns3:VervalDatum>2019-03-19T14:55:41.283</ns3:VervalDatum>
+        <ns3:AcceptatieDatum>2018-12-19T14:56:25.0617236</ns3:AcceptatieDatum>
+        <ns3:GeaccepteerdeVoorwaarden>
+          <ns3:GeaccepteerdeVoorwaarde>
+            <ns3:TitelVoorwaarde>Algemene Voorwaarden aansluiting en transport</ns3:TitelVoorwaarde>
+            <ns3:URLVoorwaarde>https://www.liander.nl/sites/default/files/Algemene_Voowaarden_KV_Liander.nl_tcm300-262632.pdf</ns3:URLVoorwaarde>
+          </ns3:GeaccepteerdeVoorwaarde>
+          <ns3:GeaccepteerdeVoorwaarde>
+            <ns3:TitelVoorwaarde>Algemene voorwaarden werkzaamheden en diensten</ns3:TitelVoorwaarde>
+            <ns3:URLVoorwaarde>https://www.liander.nl/sites/default/files/Aansluitingen-Algemene_voorwaarden-Werkzaamheden_diensten.pdf</ns3:URLVoorwaarde>
+          </ns3:GeaccepteerdeVoorwaarde>
+        </ns3:GeaccepteerdeVoorwaarden>
+        <ns3:ProcesVariant>10</ns3:ProcesVariant>
+        <ns3:ProcesStatus>3a</ns3:ProcesStatus>
+        <ns3:TotaalBedragExBtw>132.84</ns3:TotaalBedragExBtw>
+        <ns3:TotaalBedragIncBtw>160.74</ns3:TotaalBedragIncBtw>
+        <ns3:TotaalBTWBedrag>27.90</ns3:TotaalBTWBedrag>
+        <ns3:BTWPerTariefSoort>
+          <ns3:BTWComponent>
+            <ns3:BTWPercentage>21.00</ns3:BTWPercentage>
+            <ns3:BTWBedrag>27.90</ns3:BTWBedrag>
+          </ns3:BTWComponent>
+        </ns3:BTWPerTariefSoort>
+        <ns3:ProductRegels>
+          <ns3:ProductRegel>
+            <ns3:RegelNummer>2</ns3:RegelNummer>
+            <ns3:TariefCode>170903</ns3:TariefCode>
+            <ns3:BedrijfseigenKenmerk>3x25A</ns3:BedrijfseigenKenmerk>
+            <ns3:Omschrijving>3x25 ampère</ns3:Omschrijving>
+            <ns3:ObjectID>1001197997</ns3:ObjectID>
+            <ns3:DisciplineID>1003150680</ns3:DisciplineID>
+            <ns3:ProductCode>170903</ns3:ProductCode>
+            <ns3:PrijscomponentRegels>
+              <ns3:PrijscomponentRegel>
+                <ns3:RegelNummer>3</ns3:RegelNummer>
+                <ns3:TariefCode>170903</ns3:TariefCode>
+                <ns3:BedrijfseigenKenmerk>170903.001</ns3:BedrijfseigenKenmerk>
+                <ns3:Omschrijving>Wijzigen aansluitwaarde elektriciteitsaansluiting naar 3x25 ampère</ns3:Omschrijving>
+                <ns3:PrijscomponentCode>1169</ns3:PrijscomponentCode>
+                <ns3:Aantal>1</ns3:Aantal>
+                <ns3:PrijsPerEenheid>132.84</ns3:PrijsPerEenheid>
+                <ns3:Bedrag>132.84</ns3:Bedrag>
+                <ns3:BtwPercentage>21.00</ns3:BtwPercentage>
+              </ns3:PrijscomponentRegel>
+            </ns3:PrijscomponentRegels>
+          </ns3:ProductRegel>
+        </ns3:ProductRegels>
+      </ns3:VerkoopDocument>
+    </ns3:VerkoopDocumenten>
+  </ns1:Aanvraag>
+  <ns1:MarktSegment xmlns:ns3="http://www.alliander.com/">
+    <ns3:Proces>KV</ns3:Proces>
+    <ns3:Objecten>
+      <ns3:ObjectID>1001489020</ns3:ObjectID>
+      <ns3:DisciplineID>1003846868</ns3:DisciplineID>
+      <ns3:MarktSegmentOud>KV</ns3:MarktSegmentOud>
+      <ns3:ART123Oud>N</ns3:ART123Oud>
+      <ns3:MarktSegmentNieuw>KV</ns3:MarktSegmentNieuw>
+      <ns3:ART123Nieuw>N</ns3:ART123Nieuw>
+    </ns3:Objecten>
+  </ns1:MarktSegment>
+  <ns1:Dossier xmlns:ns4="http://www.alliander.com/ecmdossier/v2">
+    <ns4:Naam>1000929293</ns4:Naam>
+    <ns4:ID>252924995</ns4:ID>
+    <ns4:Folders>
+      <ns4:Folder>
+        <ns4:Naam>LIP</ns4:Naam>
+      </ns4:Folder>
+      <ns4:Folder>
+        <ns4:Naam>2019</ns4:Naam>
+      </ns4:Folder>
+      <ns4:Folder>
+        <ns4:Naam>36</ns4:Naam>
+      </ns4:Folder>
+    </ns4:Folders>
+    <ns4:TemplateNaam>MIAA</ns4:TemplateNaam>
+  </ns1:Dossier>
+  <ns1:DocumentLip>
+    <ns1:Document xmlns:ns5="http://www.alliander.com/ecmdossier/v2">
+      <ns5:NodeId>252925004</ns5:NodeId>
+      <ns5:Naam>Tekening meterkast_1.pdf</ns5:Naam>
+    </ns1:Document>
+    <ns1:BijlageId>1001241636</ns1:BijlageId>
+    <ns1:Checksum>0</ns1:Checksum>
+    <ns1:MimeType>application/pdf</ns1:MimeType>
+    <ns1:BestandsGrootte>5928398</ns1:BestandsGrootte>
+  </ns1:DocumentLip>
+  <ns1:DocumentLip>
+    <ns1:Document xmlns:ns6="http://www.alliander.com/ecmdossier/v2">
+      <ns6:NodeId>252925996</ns6:NodeId>
+      <ns6:Naam>AanvraagPDF</ns6:Naam>
+    </ns1:Document>
+    <ns1:BijlageId>-1</ns1:BijlageId>
+    <ns1:Checksum>0</ns1:Checksum>
+    <ns1:MimeType>application/pdf</ns1:MimeType>
+    <ns1:BestandsGrootte>232469</ns1:BestandsGrootte>
+    <ns1:Omschrijving>AanvraagPDF</ns1:Omschrijving>
+  </ns1:DocumentLip>
+  <ns1:DocumentLip>
+    <ns1:Document xmlns:ns7="http://www.alliander.com/ecmdossier/v2">
+      <ns7:NodeId>252917083</ns7:NodeId>
+      <ns7:Naam>OpdrachtPDF 1000526299</ns7:Naam>
+    </ns1:Document>
+    <ns1:BijlageId>-2</ns1:BijlageId>
+    <ns1:Checksum>0</ns1:Checksum>
+    <ns1:MimeType>application/pdf</ns1:MimeType>
+    <ns1:BestandsGrootte>235590</ns1:BestandsGrootte>
+    <ns1:Omschrijving>Verkoopdocument</ns1:Omschrijving>
+  </ns1:DocumentLip>
+</ns1:AanvraagTotaal>

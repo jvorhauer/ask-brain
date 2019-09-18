@@ -1,0 +1,15 @@
+= ask the brain
+
+Proof of Concept / Spike / Trial-and-Error project to learn about everything related to Akka, Akka http, Akka cluster, etc.
+
+== test
+
+[source, shell]
+----
+sbt test
+----
+
+
+== use
+
+Visual Studio Code with Metals plugin or IntelliJ IDEA with Scala plugin.
